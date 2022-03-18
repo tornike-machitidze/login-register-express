@@ -1,0 +1,31 @@
+#users-list-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 40px;
+  box-shadow: 2px 4px 4px 0 #272626;
+}
+
+#users-list-container li {
+  cursor: pointer;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #d4f9fa;
+  box-shadow: 2px 4px 4px 0 #777474;
+}
+
+#users-list-container li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  color: #292828;
+  opacity: 1;
+}
+
+#users-list-container li a:hover {
+  opacity: 1;
+  color: #0a0a0a;
+}

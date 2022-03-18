@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/forms.css" />
+    <script src="../js/register.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>
+            <a href="/profile.html">Profile</a>
+          </li>
+          <li><a id="logout" href="/login.html">Logout</a></li>
+          <li>
+            <a href="/register.html" style="font-size: 23px; color: #fff"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Sign Up</h2>
+      <form id="register-form">
+        <div class="label-input-container">
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name" id="name-input" />
+        </div>
+        <div class="label-input-container">
+          <label>Email</label>
+          <input type="email" placeholder="Enter Email" id="email-input" />
+        </div>
+        <div class="label-input-container">
+          <label>Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            id="password-input"
+          />
+        </div>
+        <div id="register-submit" class="label-input-container">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>tornike &copy; 2022</p>
+    </footer>
+  </body>
+</html>
